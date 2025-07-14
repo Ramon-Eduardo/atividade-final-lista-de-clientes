@@ -1,1 +1,46 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    min-width: 610px;
 
+    .formContainer {
+        align-items: center;
+        width: 100%;
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            .formGroup {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                gap: 5px;
+                label {
+                    display: flex;
+                    justify-content: left;
+                    font-weight: bold;
+                }
+    
+                input {
+                    display: flex;
+                    height: 25px;
+                }
+    
+                textarea {
+                    display: flex;
+                    height: 50px;
+                }
+            }
+            button {
+                width: 100%;
+                background-color: #28a745;
+                height: 30px;
+                text-align: center;
+                border: none;
+                color: white;
+            }
+        }
+    }
+}

@@ -1,1 +1,31 @@
+body {
+    background-color: #eee9e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
+.appContainer {
+    background-color: white;
+    padding: 30px;
+    .header {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        .tab {
+            display: flex;
+            gap: 10px;
+            Button {
+                cursor: pointer;
+                border: none;
+                font-weight: bold;
+                border-radius: 10px;
+                padding: 10px;
+                &.activeTab {
+                    background-color: #027bff;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.clientCard {
+    min-width: 600px;
+    padding: 20px;
+    background-color: #fafafa;
+    border: 1px solid #d3d3d3;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    margin-top: 20px;
+
+    .clientRegister {
+        margin-left: 10px;
+    }
+}
