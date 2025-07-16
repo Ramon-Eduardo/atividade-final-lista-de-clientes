@@ -2,6 +2,10 @@
 
 Este projeto é uma aplicação React desenvolvida como atividade final do Bootcamp de FrontEnd do Campinho Digital. O objetivo é permitir o cadastro, listagem e gerenciamento simples de clientes.
 
+<img width="1889" height="963" alt="Screenshot 2025-07-16 195949" src="https://github.com/user-attachments/assets/19f70fa5-e2ca-416d-a627-f54eefee6f18" />
+<img width="1888" height="964" alt="Screenshot 2025-07-16 195957" src="https://github.com/user-attachments/assets/3a3cc17c-8d28-4fa1-8868-207611c71515" />
+
+
 ## Funcionalidades
 
 - **Cadastro de clientes:** Preencha nome, telefone (com máscara de formatação) e observações.
