@@ -10,7 +10,7 @@ Este projeto é uma aplicação React desenvolvida como atividade final do Bootc
 
 - **Cadastro de clientes:** Preencha nome, telefone (com máscara de formatação) e observações.
 - **Listagem de clientes:** Visualize todos os clientes cadastrados.
-- **Persistência temporária:** Os dados ficam disponíveis enquanto a página está aberta.
+- **Persistência local:** Os dados dos clientes são salvos no armazenamento local do navegador (localStorage) e permanecem salvos mesmo após fechar ou atualizar a página, até que o usuário clique no botão para limpar tudo.
 
 ## Tecnologias Utilizadas
 
@@ -63,6 +63,7 @@ atividade-final-lista-de-clientes/
 ## Observações
 
 - O campo de telefone possui máscara automática para formatos brasileiros (fixo e celular).
+- Os dados dos clientes são armazenados no localStorage do navegador, garantindo persistência até que sejam removidos manualmente pelo usuário.
 - O projeto é apenas para fins didáticos e não utiliza backend ou banco de dados.
 
 ## Autor
