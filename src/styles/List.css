@@ -1,3 +1,8 @@
+.listCard {
+    min-width: 600px;
+    min-height: 300px;
+}
+
 .clientCard {
     min-width: 600px;
     padding: 20px;
@@ -9,5 +14,20 @@
 
     .clientRegister {
         margin-left: 10px;
+    }
+}
+
+.eraseDiv {
+    display: flex;
+    justify-content: center;
+    .eraseButton {
+        cursor: pointer;
+        border: none;
+        font-weight: bold;
+        border-radius: 10px;
+        padding: 10px;
+        margin-top: 20px;
+        color: white;
+        background-color: red;
     }
 }
